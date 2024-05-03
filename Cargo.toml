@@ -11,3 +11,22 @@ documentation = "https://docs.rs/oz_merkle_rs"
 [dependencies]
 anyhow = "1.0"
 ethers = { version = "2.0" }
+ark-ff = "0.4.0"
+ark-bn254 = { version = "0.4.0" }
+ark-std = { version = "0.4.0" }
+ark-ec = "0.4.2"
+ark-serialize = "0.4.2"
+ark-bls12-381 = "0.4.0"
+rand = { version = "0.8", features = [ "std", "std_rng" ] }
+num-bigint = { version = "0.4" }
+ark-bls12-377 = "0.4.0"
+ark-mnt4-298 = "0.4.0"
+ark-pallas = "0.4.0"
+ark-vesta = "0.4.0"
+ark-secp256k1 = "0.4.0"
+#arkworks
+
+num-traits = "0.2.16"
+
+num-traits = "0.2.16"
+poseidon-rust = { git = "https://github.com/mdvillagra/poseidon-rust.git" }
