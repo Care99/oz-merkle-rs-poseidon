@@ -2035,22 +2035,9 @@ name = "oz_merkle_rs"
 version = "0.1.3"
 dependencies = [
  "anyhow",
- "ark-bls12-377",
  "ark-bls12-381",
- "ark-bn254",
- "ark-ec",
- "ark-ff",
- "ark-mnt4-298",
- "ark-pallas",
- "ark-secp256k1",
- "ark-serialize",
- "ark-std",
- "ark-vesta",
  "ethers",
- "num-bigint",
- "num-traits",
  "poseidon-rust",
- "rand",
 ]
 
 [[package]]
