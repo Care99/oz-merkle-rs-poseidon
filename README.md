@@ -10,13 +10,15 @@ OZ Merkle-rs is a lightweight, efficient Merkle tree implementation written in R
 - **Seamless Integration**: Works out of the box with OpenZeppelin contracts, making it easy to incorporate into your blockchain projects.
 - **Rust Implementation**: Leverages Rust's safety and concurrency features to ensure secure and efficient operation.
 - **Keccak256**: Supports Keccak256 hashing.
+- **Poseidon**: Supports Poseidon hash function.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Rust (latest stable version recommended)
+- Rustup (latest nightly version recommended)
 - Cargo (Rust's package manager)
+- rust-analyzer (Visual Studio Code extension to execute tests)
 
 ### Installation
 
@@ -65,3 +67,8 @@ let data = vec![
 ## License
 
 OZ Merkle-rs is open source and available under the MIT License.
+
+## Libraries Used
+
+- [merkle-tree](https://github.com/AnonJon/oz-merkle-rs)
+- [poseidon-hash](https://github.com/mdvillagra/poseidon-rust)
